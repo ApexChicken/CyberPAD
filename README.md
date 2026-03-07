@@ -2,9 +2,16 @@
 
 A compact 4-button macropad built around the Seeed XIAO microcontroller, designed for Hack Club.
 
+<img width="665" height="313" alt="Screenshot_20260306_114448" src="https://github.com/user-attachments/assets/107bcbab-87aa-4499-9171-1bba361745d8" />
+<img width="591" height="286" alt="Screenshot_20260306_114620" src="https://github.com/user-attachments/assets/1c0ca893-4961-4cb2-a10c-8eb63faf440c" />
+<img width="909" height="574" alt="Screenshot_20260306_120633" src="https://github.com/user-attachments/assets/a8a75710-cf4b-437b-a06d-e7ad2d3e722e" />
+
+
+
 ## Overview
 
-A minimal, hackable macropad that fits in the palm of your hand. Program it as a shortcuts board, game controller, stream deck, or whatever you can think of.
+A minimal, hackable macropad that fits ![Uploading Screenshot_20260306_114448.png…]()
+in the palm of your hand. Program it as a shortcuts board, game controller, stream deck, or whatever you can think of.
 
 ## Hardware
 
