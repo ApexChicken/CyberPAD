@@ -10,8 +10,7 @@ A compact 4-button macropad built around the Seeed XIAO microcontroller, designe
 
 ## Overview
 
-A minimal, hackable macropad that fits ![Uploading Screenshot_20260306_114448.png…]()
-in the palm of your hand. Program it as a shortcuts board, game controller, stream deck, or whatever you can think of.
+A minimal, hackable macropad that fits in the palm of your hand. Program it as a shortcuts board, game controller, stream deck, or whatever you can think of.
 
 ## Hardware
 
