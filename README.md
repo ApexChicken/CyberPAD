@@ -1,37 +1,27 @@
-# 4-Button Macropad
+# CyberPAD
 
-A compact 4-button macropad built around the Seeed XIAO microcontroller, designed for Hack Club.
+The CyberPAD is a 4-button macropad with a seeduino and cherry keycaps.
 
-<img width="665" height="313" alt="Screenshot_20260306_114448" src="https://github.com/user-attachments/assets/107bcbab-87aa-4499-9171-1bba361745d8" />
-<img width="591" height="286" alt="Screenshot_20260306_114620" src="https://github.com/user-attachments/assets/1c0ca893-4961-4cb2-a10c-8eb63faf440c" />
-<img width="909" height="574" alt="Screenshot_20260306_120633" src="https://github.com/user-attachments/assets/a8a75710-cf4b-437b-a06d-e7ad2d3e722e" />
+## Usage
 
+Designed with simple plug-and-play utility in mind, the CyberPAD only requires a single program (code.py),and a USB-C cable. Configuration for using it can be done within the python program (I've added comments so that tech-knowledge is less required), or Powertoys on Windows 11. 
 
+## Why I Made This
 
-## Overview
+I designed this macropad as my first project within PCB design, which is a topic I've been wanting to get into for quite some time. Using Hack Clubs step-by-step guide (with some alterations), I have designed my own macropad, which I plan to use as shortcuts when making CAD and PCB designs.
 
-A minimal, hackable macropad that fits in the palm of your hand. Program it as a shortcuts board, game controller, stream deck, or whatever you can think of.
+## Some cool pictures
+<img width="727" height="737" alt="Screenshot_20260307_110724" src="https://github.com/user-attachments/assets/18042401-1b63-4eff-bc0a-1873ead74158" />
+<img width="699" height="457" alt="Screenshot_20260307_110742" src="https://github.com/user-attachments/assets/8c655a02-97a2-4c86-9f97-56d2b2c11658" />
+<img width="591" height="286" alt="Screenshot_20260306_114620" src="https://github.com/user-attachments/assets/24fc5ac2-8450-48c6-9591-ebb0aab3f09a" />
+<img width="665" height="313" alt="Screenshot_20260306_114448" src="https://github.com/user-attachments/assets/fde88110-edd0-4d80-b6a5-fefd703bdbf1" />
 
-## Hardware
+## Itemized bill
 
-- **MCU:** Seeed Studio XIAO (SAMD21 / RP2040)
-- **Switches:** Cherry MX pushbuttons (x4)
-- **Form factor:** 94 × 49 mm
-
-## How It Works
-
-Each Cherry MX switch is wired to a GPIO pin on the XIAO. When pressed, the XIAO sends a keycode (or custom HID command) over USB. The XIAO's built-in USB support means no extra chips needed — just plug in and go.
-
-## Getting Started
-
-1. Flash your XIAO with CircuitPython or QMK
-2. Wire each switch between a GPIO pin and GND
-3. Edit the key mappings in `code.py` (CircuitPython) or `keymap.c` (QMK)
-4. Plug in via USB — it shows up as a keyboard instantly
-
-## Possible Uses
-
-- Shortcuts for Photoshop, VS Code, or any app
-- PTT / mute toggle for calls
-- Volume / media controls
-- Game macros
+| Item | Price (USD $) | Link|
+|------|---------------|-----|
+|XIAO RP2040 | $9.99 | https://a.co/d/06JD7nHi |
+|------|---------------|-----|
+|MX red cherry switches | $8.99 | | https://a.co/d/0eW07bUH |
+|------|---------------|-----|
+|PCB| | $27.76 / 5 ($5.53) | N/A
