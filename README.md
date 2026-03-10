@@ -4,7 +4,7 @@ The CyberPAD is a 4-button macropad with a seeduino and cherry keycaps.
 
 ## Usage
 
-Designed with simple plug-and-play utility in mind, the CyberPAD only requires a single program (code.py),and a USB-C cable. Configuration for using it can be done within the python program (I've added comments so that tech-knowledge is less required), or Powertoys on Windows 11. 
+Designed with simple plug-and-play utility in mind, the CyberPAD only requires a single program (code.py),and a USB-C cable. Configuration for using it can be done within the python program (I've added comments so that tech-knowledge is less required), or Powertoys on Windows 11. Beyond that, its yours to use!
 
 ## Why I Made This
 
@@ -16,10 +16,14 @@ I designed this macropad as my first project within PCB design, which is a topic
 <img width="591" height="286" alt="Screenshot_20260306_114620" src="https://github.com/user-attachments/assets/24fc5ac2-8450-48c6-9591-ebb0aab3f09a" />
 <img width="665" height="313" alt="Screenshot_20260306_114448" src="https://github.com/user-attachments/assets/fde88110-edd0-4d80-b6a5-fefd703bdbf1" />
 
-## Itemized bill
+# Parts List
 
-| Item | Price (USD $) | Link|
-| :---:| :------------:|----:|
-|XIAO RP2040 | $9.99 | https://a.co/d/06JD7nHi |
-|MX red cherry switches | $8.99 | | https://a.co/d/0eW07bUH |
-|PCB| | $27.76 / 5 ($5.53) | N/A
+| Component | Description | Link | Unit Price | Qty | Total |
+|-----------|-------------|------|------------|-----|-------|
+| XIAO RP2040 | Seeeduino controller | [Amazon](https://a.co/d/06JD7nHi) | $9.99 | 1 | $9.99 |
+| MX Red Cherry Switches | Keys | [Amazon](https://a.co/d/0eW07bUH) | $8.99 | 1 | $18.98 |
+| PCB | Electrical circuit | [PCBWAY](https://pcbway.com) | $5.53 | 1 | $24.54 |
+
+**Total: $53.51**
+
+Please note that quotes for PCBS in PCBWay require a minimum of five, as do many other sites.
