@@ -19,9 +19,6 @@ I designed this macropad as my first project within PCB design, which is a topic
 ## Itemized bill
 
 | Item | Price (USD $) | Link|
-|------|---------------|-----|
 |XIAO RP2040 | $9.99 | https://a.co/d/06JD7nHi |
-|------|---------------|-----|
 |MX red cherry switches | $8.99 | | https://a.co/d/0eW07bUH |
-|------|---------------|-----|
 |PCB| | $27.76 / 5 ($5.53) | N/A
